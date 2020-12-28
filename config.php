@@ -19,7 +19,7 @@ if ($conexion->connect_errno) {
 }
 
 // Url donde estara el proyecto, debe terminar con un "/" al final
-$base_url="http://app-7f85ad7b-2e2c-4ec5-851b-b0c72e3d5b29.cleverapps.io/";
+$base_url="mysql://utqlaf0uataif76a:lvj0IqIPdmSzHVyat6wA@buah3bvfztgypsbrhijc-mysql.services.clever-cloud.com:3306/buah3bvfztgypsbrhijc";
 
 ?>
 
