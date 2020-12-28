@@ -1,29 +1,11 @@
 <?php
 
-/**
-**
-**  BY iCODEART
-**
-**********************************************************************
-**                      REDES SOCIALES                            ****
-**********************************************************************
-**                                                                ****
-** FACEBOOK: https://www.facebook.com/icodeart                    ****
-** TWIITER: https://twitter.com/icodeart                          ****
-** YOUTUBE: https://www.youtube.com/c/icodeartdeveloper           ****
-** GITHUB: https://github.com/icodeart                            ****
-** TELEGRAM: https://telegram.me/icodeart                         ****
-** EMAIL: info@icodeart.com                                       ****
-**                                                                ****
-**********************************************************************
-**********************************************************************
-**/
 
 // Datos de conexion a la base de datos
-$servidor='localhost';
-$usuario='root';
-$pass='';
-$bd='eventos';
+$servidor='buah3bvfztgypsbrhijc-mysql.services.clever-cloud.com';
+$usuario='utqlaf0uataif76a';
+$pass='lvj0IqIPdmSzHVyat6wA';
+$bd='buah3bvfztgypsbrhijc';
 
 // Nos conectamos a la base de datos
 $conexion = new mysqli($servidor, $usuario, $pass, $bd);	
@@ -37,7 +19,7 @@ if ($conexion->connect_errno) {
 }
 
 // Url donde estara el proyecto, debe terminar con un "/" al final
-$base_url="http://localhost/calendario/";
+$base_url="http://app-7f85ad7b-2e2c-4ec5-851b-b0c72e3d5b29.cleverapps.io/";
 
 ?>
 
